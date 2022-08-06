@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mphasis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="name">
+            <img src="logo/cman.png" alt="" height="50px">
+            <a href="index.html">Customer Manager</a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a class="menustyle1" href="customers.html">Customers</a></li>
+                <li><a class="menustyle" href="orders.html">Orders</a></li>
+                <li><a class="menustyle" href="about.html">About</a></li>
+                <li><a class="menustyle" href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="pname">
+        <img src="logo/person.png" alt="" height="30px">
+        <h3 class="pname1">Customers Information</h3>
+    </div>
+    <div class="view">
+        <ul>
+            <li>
+                <img src="logo/list.png" alt="" height="12px">
+                <a href="#">Customer Details</a>
+            </li>
+            <li>
+                <img src="logo/order.png" alt="" height="15px">
+                <a href="#">Customer Orders</a>
+            </li>
+            <li>
+                <img src="logo/edit.png" alt="" height="15px">
+                <a href="#">Edit Customer</a>
+            </li>
+        </ul>
+    </div>
+    <div class="frm">
+        <form action="">
+            <label for="">First Name</label> <br>
+            <input type="text" placeholder="Enter First Name">
+            <label for="">Last Name</label> <br>
+            <input type="text" placeholder="Enter First Name">
+            <label for="">Email</label> <br>
+            <input type="text" placeholder="Enter First Name">
+            <label for="">Mobile</label> <br>
+            <input type="text" placeholder="Enter First Name">
+            <input type="checkbox" checked style="width:15px; margin: 0 0 30px 0;">
+            <label for="">Subscribe to get Notification From Eshop</label> <br>
+            <label for="">Gender</label> <br>
+            <input list="datalist">
+            <datalist id="datalist">
+                <option value="Male"></option>
+                <option value="Female"></option>
+                <option value="Others"></option>
+            </datalist>
+            <label for="">DOB</label> <br>
+            <input type="date">
+            <label for="">Favourite Color</label> <br>
+            <input type="color" style="padding:0">
+            <label for="">Address</label> <br>
+            <textarea placeholder="Enter Address"></textarea> <br><br>
+            <label for="">City</label> <br>
+            <select name="" id="">
+                <option value="" disabled selected hidden>Select City</option>
+                <option value="Medinipur">Medinipur</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Tamluk">Tamluk</option>
+                <option value="Digha">Digha</option>
+            </select> <br>
+            <label for="">State</label> <br>
+            <select name="" id="">
+                <option value="" disabled selected hidden>Select State</option>
+                <option value="West Bengal">West Bengal</option>
+                <option value="Odisha">Odisha</option>
+            </select> <br>
+            <label for="">Country</label> <br>
+            <select name="" id="">
+                <option value="" disabled selected hidden>Select Country</option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+            </select>
+            <button class="ins">Insert</button>
+            <button class="can" type="reset">Cancle</button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>

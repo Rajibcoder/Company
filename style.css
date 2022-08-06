@@ -1,0 +1,236 @@
+
+nav{
+    width: 80%;
+    height: 56px;
+    margin: 0 auto 20px;
+    background-color: #2874f0;
+}
+.name{
+    float: left;
+    padding: 3px;
+    display: flex;
+}
+.name a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 16px 0;
+}
+.menu{
+    margin: 0 0 0 170px;
+}
+.menu ul li{
+    display: inline-flex;
+    padding: 16px 30px;
+}
+.menu a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.menustyle{
+    color: white;
+}
+.menustyle:hover{
+    background-color: white;
+    color: black;
+    padding: 3px;
+    border-radius: 3px;
+}
+.menustyle1{
+    background-color: white;
+    padding: 3px;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+}
+.pname{
+    margin: 0 140px;
+    display: flex;
+}
+.pname1{
+    margin: 10px 0 0 0;
+}
+.view{
+    margin: 0 110px;
+}
+.view a{
+    text-decoration: none;
+    color: rgb(152, 143, 143);
+    font-weight: bold;
+}
+.view a:hover{
+    color: black;
+}
+
+.view ul li{
+    display: inline;
+    padding: 10px;
+}
+.search{
+    float: right;
+    margin: 0 180px 0 100%;
+}
+.card{
+    margin: 85px 140px;
+}
+.item{
+    background: rgb(255 229 229);
+    border: 1px solid rgb(150, 136, 136);
+    width: 230px;
+    margin: 10px 10px;
+    float: left;
+    height: 120px;
+}
+.itemname{
+    height: 35px;
+    width: 100%;
+    background:#2874f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.itemname1{
+    margin: 0 0 0 10px;
+    color: white;
+}
+.itemdetails{
+    display: flex;
+}
+.itemdetails1{
+    padding: 10px;
+}
+.listtbl{
+    width: 100%;
+    text-align: left;
+}
+.card tr:nth-child(even) {
+    background-color: #ddd6d6;
+}
+.customername{
+    text-decoration: none;
+    color: #2874f0;
+}
+.pname2{
+    margin: 20px 170px 0;
+}
+.pname3{
+    margin: -20px 0 0 20px;
+}
+.box{
+    margin: 20px 170px 0;
+    display: flex;
+}
+.details1{
+    margin: 0px 0 0 80px;
+}
+.box1{
+    margin: 50px 0 0px 206px;
+}
+.frm{
+    margin: 40px 190px 0 160px;
+}
+.frm label{
+    font-weight: bolder;
+    color:rgb(57, 56, 56);
+}
+.frm input{
+    width: 100%;
+    padding: 10px 15px;
+    font-weight: bold;
+    margin: 0 0 15px 0;
+    border-radius: 5px;
+}
+textarea{
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+select{
+    width: 100%;
+    padding: 10px 15px;
+    font-weight: bold;
+    margin: 0 0 15px 0;
+    border-radius: 5px;
+}
+.frm button{
+    padding: 8px;
+    width: 80px;
+    border-radius: 5px;
+    float: right;
+    margin: 0 0 0 10px;
+    font-weight: bolder;
+}
+.can:hover{
+    background: red;
+}
+.ins{
+    background: #7bed9f;
+}
+.ins:hover{
+    background: #2ed573;
+}
+
+.content{
+    margin: 0 150px;
+
+}
+.content table{
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 0 0 0 20px;
+}
+.price{
+    float: right;
+}
+.totalprice{
+    float: right;
+}
+.orderdetails{
+    margin: 0 0 50px 0;
+}
+.ordername{
+    font-size: 20px;
+}
+.content tr td{
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+.about{
+    margin: 20px 150px 0 190px;
+    font-weight: bold;
+    font-style: italic;
+}
+.about table{
+    width: 100%;
+}
+.about tr:nth-child(odd) {
+    background-color: #ddd6d6;
+}
+.about tr{
+    margin: 0 0 20px 0;
+}
+.login{
+    margin: 20px 820px 0 190px;
+}
+
+.login label{
+    font-size: larger;
+
+}
+
+.login input{
+    float: right;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+    margin: -9px 0;
+    font-size: medium;
+}
+.login button{
+    padding: 8px;
+    width: 80px;
+    border-radius: 5px;
+    margin: 16px 0 0 0px;
+    font-weight: bolder;
+    background-color: #7bed9f;
+    color: white;
+}
