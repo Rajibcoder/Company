@@ -1,1 +1,1 @@
-# mphasis-html-css-project
+# company-practice-html-css-project
